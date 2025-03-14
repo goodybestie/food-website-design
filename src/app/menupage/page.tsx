@@ -1,5 +1,5 @@
 import Card2 from "../Component/card2/page";
-import Headers from "../Component/headerpage/page";
+import Headers from "../Component/headerpage/Header";
 import OrderPage from "../Component/ordersite";
 
 const MenuPage = () => {

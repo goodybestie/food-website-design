@@ -1,5 +1,5 @@
 import Card from "../Component/card/page";
-import Headers from "../Component/headerpage/page";
+import Headers from "../Component/headerpage/Header";
 
 
 const MainPage = () => {

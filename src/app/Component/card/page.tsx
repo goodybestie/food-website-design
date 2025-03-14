@@ -1,4 +1,5 @@
-import { Cards } from "../pagearray/page";
+
+import { Cards } from "@/app/const/data1";
 
 const Card = () => {
 

@@ -1,4 +1,4 @@
-import Headers from "../Component/headerpage/page";
+import Headers from "../Component/headerpage/Header";
 const AboutPagae = () => {
     return ( 
 

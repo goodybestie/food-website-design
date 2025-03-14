@@ -1,5 +1,5 @@
 import MoreInfo from "@/moreinfopage/page";
-import Headers from "../Component/headerpage/page";
+import Headers from "../Component/headerpage/Header";
 import ContactPage1 from "../Component/contactpage1/page";
 
 const ContactPage = () => {
