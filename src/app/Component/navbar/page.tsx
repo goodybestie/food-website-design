@@ -11,7 +11,7 @@ const Navbar = () => {
     const pathname = usePathname(); 
 
     const List = [
-        { label: "Home", href: "/homepage" },
+        { label: "Home", href: "/" },
         { label: "About", href: "/aboutpage" },
         { label: "Menu", href: "/menupage" },
         { label: "Page", href: "/blogpage" },
