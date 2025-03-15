@@ -1,6 +1,6 @@
 // import Image from "next/image";
-import MainPage from "./blogpage/page"
 import Headers from "./Component/headerpage/Header";
+import HeaderMain from "./Component/headerpage/headermain";
 
 
 export default function Home() {
@@ -10,6 +10,7 @@ export default function Home() {
       
      
     <Headers h1="Welcome To Our Page" />
+    <HeaderMain />
     </div>
     </>
   );

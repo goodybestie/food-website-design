@@ -1,9 +1,11 @@
 import Headers from "../Component/headerpage/Header";
+import AboutMain from "./aboutmain";
 const AboutPagae = () => {
     return ( 
 
         <>
         <Headers h1="About Us" />
+        <AboutMain />
         </>
      );
 }
