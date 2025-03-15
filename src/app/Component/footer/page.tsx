@@ -5,7 +5,7 @@ import { FaPhoneAlt, FaGoogle, FaTwitter, FaFacebook, FaInstagram, FaTiktok } fr
 const Footer = () => {
     return (
         <>
-            <div className="bg-[#474747] mt-20 p-5">
+            <div className="bg-[#474747] mt-20  p-5">
                 <div className="grid md:grid-cols-4 sm:grid-cols-1   gap-5   w-[85%] m-auto mt-20 text-sm/8  ">
                     <div className=''>
                         <div className="flex gap-4 items-center ">
@@ -48,7 +48,7 @@ const Footer = () => {
                     </div>
                     <div className='mt-5'>
                         <span className='text-white font-DM Sans'>Follow Us On Instagram</span>
-                        <div className=' grid grid-cols-2  gap-2 mt-5 h-[250px]  '>
+                        <div className=' grid grid-cols-2  gap-2 mt-5 h-[250px] mb-[40px] md:mb-none  '>
                             <img src='/food.png' className='h-full w-full object-cover rounded-lg' />
                             <img src='/meal.png' className='h-full w-full object-cover rounded-lg' />
                             <img src='/food.png' className='h-full w-full object-cover rounded-lg'/>

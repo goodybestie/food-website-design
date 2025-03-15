@@ -5,7 +5,7 @@ const ContactPage1 = () => {
               
               <div className="flex flex-col md:flex-row gap-4">
                   <div className="w-full">
-                      <label htmlFor="name" className="text-sm font-medium text-gray-700">
+                      <label htmlFor="name" className="text-xl font-bold text-gray-700">
                           Name
                       </label>
                       <input
@@ -18,7 +18,7 @@ const ContactPage1 = () => {
                   </div>
 
                   <div className="w-full">
-                      <label htmlFor="email" className="text-sm font-medium text-gray-700">
+                      <label htmlFor="email" className="text-xl font-bold text-gray-700">
                           Email
                       </label>
                       <input
@@ -32,7 +32,7 @@ const ContactPage1 = () => {
               </div>
 
               <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700">
+                  <label htmlFor="subject" className="block text-xl font-bold text-gray-700">
                       Subject
                   </label>
                   <input
@@ -45,7 +45,7 @@ const ContactPage1 = () => {
               </div>
 
               <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700">
+                  <label htmlFor="message" className="block text-xl font-bold text-gray-700">
                       Message
                   </label>
                   <textarea

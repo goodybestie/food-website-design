@@ -1,54 +1,82 @@
-import { SiDoordash,SiDeliveroo,SiFoodpanda,  SiInstacart  } from "react-icons/si";
+import React from 'react'
+import {
+  SiAdidas,
+  SiDeliveroo,
+  SiDoordash,
+  SiFoodpanda,
+  SiInstacart,
+} from "react-icons/si";
 
-const OrderPage = () => {
-    return ( 
-        <>
-        <div className="bg-[#F9F9F7] mt-10  ">
-
-            <div className=" p-8  flex  flex-col md:flex-row  justify-around gap-10   ">
-            <div className="p-5">
-                <h1 className="text-[#2C2F24] text-3xl sm:text-4xl md:text-5xl mb-5 font-arial">You can order <br /> through apps</h1>
-                <p className="text-sm sm:text-base">Lorem ipsum dolor sit amet consectetur <br /> adipiscing elit enim bibendum sed et aliquet aliquet <br/> risus tempor semper.</p>
-            </div>
-            <div className="grid grid-cols-1  md:grid-cols-3 gap-5  ">
-                <p className="bg-white rounded-md shadow-lg p-4 ">Urber Eats</p>
-                <p className="bg-white rounded-md shadow-lg p-4 text-[#F63440] font-bold ">GRUBHUB</p>
-                <p className="bg-white rounded-md shadow-lg p-4 text-[ #F63440] font-bold ">Postmates</p>
-                
-                <div className="bg-white rounded-md shadow-lg p-4 text-[#FF3008] font-bold flex gap-2 items-center">
-                <SiDoordash  className="color-[#FF3008]"/>
-                <p className="text-[#FF3008] font-bold">
-                     DOORDASH</p>
-
-                </div>
-                   
-
-                <div className="bg-white rounded-md shadow-lg p-4 flex gap-2 items-center">
-                <SiFoodpanda className="color-[#D70F64]"/>
-                <p className=" font-bold text-[#D70F64]"> 
-                foodpanda</p>
-                </div>
-                <div className="bg-white rounded-md shadow-lg p-4 text-[#00CCBC] font-bold flex gap-2 items-center">
-                     <SiDeliveroo className="color-[#00CCBC]"/>
-                <p className=" text-[#00CCBC] font-bold">deliveroo</p>
-                </div>
-                <div className="bg-white rounded-md shadow-lg p-4 text-[#00CCBC] font-bold flex gap-2 items-center">
-                <SiInstacart className="color-[#43B02A]" />
-                <p className="text-[#43B02A] font-bold"> instacart</p>
-                </div>
-                
-                <p className="bg-white rounded-md shadow-lg p-4 text-[#FF3131] font-bold ">JUST EAT</p>
-                <div className="bg-white rounded-md shadow-lg p-4 text-[#00CCBC] font-bold flex gap-2 items-center" >
-                <SiInstacart className="color-[#FC9153]" />
-                
-                <p className="w-full sm:w-48 md:w-auto"> DiDi Food</p>
-                </div>
-
-            </div>
+export default function OrderPage() {
+  return (
+    <div>
+      <div className=" md:px-[110px] px-5 bg-[#F9F9F7] py-10 md:flex items-center  justify-between gap-4 mt-6">
+        <div className="max-w-[550px] w-full text-center md:text-start">
+          <h2 className="text-[#2C2F24] md:text-6xl  text-2xl font-semibold md:my-5 my-2 ">
+            You can order through apps
+          </h2>
+          <p className="text-[#414536] md:text-[16px] max-w-[550px] md:max-w-[382px] w-full text-[13px]">
+            Lorem ipsum dolor sit amet consectetur  adipiscing elit enim
+            bibendum sed et aliquet aliquet risus tempor semper.
+          </p>
         </div>
+        <div className="py-12  px-4 md:px-0 ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3   ">
+            <div className="px-4 py-3 bg-white text-xl text-center rounded-md shadow-xl">
+              <button className="font-bold">
+                Uber <span className="text-[#05C167]">Eats</span>
+              </button>
+            </div>
+            <div className="px-4 py-3 bg-white text-xl rounded-md text-center shadow-lg text-[#F63440]">
+              <button className="font-bold ">
+                {" "}
+                GRUBHUB
+              </button>
+            </div>
+            <div className="px-4 py-3 bg-white text-xl rounded-md text-center shadow-lg text-[#000000]">
+              <button className=" font-bold">
+                Postmates
+              </button>
+            </div>
+            <div className="px-6 py-3 bg-white text-xl rounded-md shadow-lg text-[#FF3008] flex justify-center  items-center  ">
+            <SiDoordash   className="flex-none mr-2" /> 
+              <button  className="font-semibold">
+                      DOORDASH
+              </button>
+            </div>
+            <div className=" px-6 py-3 bg-white text-xl rounded-md shadow-lg text-[#D70F64] flex justify-center items-center">
+            <SiFoodpanda className="flex-none mr-2" /> 
+              <button className=" font-semibold">
+                    foodpanda
+              </button>
+            </div>
+            <div className=" bg-white text-xl rounded-md shadow-lg px-6 py-3  text-[#00CCBC] flex justify-center items-center">
+            <SiDeliveroo className="text-[#00CCBC] flex-none mr-2 " />
+              <button className="font-semibold ">
+                    deliveroo
+              </button>
+            </div>
+            <div className="px-6 py-3 bg-white text-xl rounded-md shadow-lg text-[#43B02A] flex justify-center items-center">
+                <SiInstacart className="text-[#FF8200] flex-none mr-2" />     
+              <button className=" font-bold"> instacart
+              </button>
+            </div>
+            <div className="px-4 py-3 bg-white text-xl text-center rounded-md shadow-lg text-[#FF3131]">
+              <button className="font-bold">
+                {" "}
+                JUSTEAT{" "}
+              </button>
+            </div>{" "}
+            <div className="px-6 py-3 bg-white text-lg rounded-md shadow-lg text-[#2C2F24] flex justify-center items-center">
+                <SiAdidas className="text-[#FC9153] flex-none mr-2 " />
+              <button className=" font-semibold">
+                
+                DiDi <span className="ml-2">Food</span>
+              </button>
+            </div>
+          </div>
         </div>
-        </>
-     );
+      </div>
+    </div>
+  )
 }
- 
-export default OrderPage;
