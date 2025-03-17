@@ -1,5 +1,5 @@
 
-import { Cards } from "@/app/Component/const/data1";
+import { Cards } from "@/app/Component/const/blogdata";
 
 const PageMain = () => {
 

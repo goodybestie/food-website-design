@@ -1,6 +1,6 @@
 "use client"
 
-import { PriceList } from "@/app/Component/const/data";
+import { PriceList } from "@/app/Component/const/menuedata";
 
 const MenuMain = () => {
 

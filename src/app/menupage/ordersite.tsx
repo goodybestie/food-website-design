@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  SiAdidas,
-  SiDeliveroo,
-  SiDoordash,
-  SiFoodpanda,
-  SiInstacart,
+import {SiAdidas, SiDeliveroo, SiDoordash, SiFoodpanda, SiInstacart,
 } from "react-icons/si";
 
 export default function OrderPage() {

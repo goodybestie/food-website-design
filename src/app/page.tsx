@@ -1,7 +1,6 @@
-// import Image from "next/image";
 import TestimonialCarousel from "./headerpage/carousel";
 import Headers from "./headerpage/Header";
-import HeaderMain from "./headerpage/headermain";
+import HomeMain from "./headerpage/homemain";
 
 
 export default function Home() {
@@ -11,7 +10,7 @@ export default function Home() {
       
      
     <Headers h1="Our Home" />
-    <HeaderMain />
+    <HomeMain />
     <TestimonialCarousel />
     </div>
     </>

@@ -5,19 +5,13 @@ import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { FaPhoneAlt, FaGoogle, FaTwitter, FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa';
 import { IoMdMenu, IoMdClose } from 'react-icons/io';
+import { List } from '../const/navdata';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const pathname = usePathname(); 
 
-    const List = [
-        { label: "Home", href: "/" },
-        { label: "About", href: "/aboutpage" },
-        { label: "Menu", href: "/menupage" },
-        { label: "Page", href: "/blogpage" },
-        { label: "Contact", href: "/contactpage" }
-    ];
-
+    
     return (
         <div className="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
             {/* Top bar */}

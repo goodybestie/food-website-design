@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-export default function HeaderMain() {
+export default function HomeMain() {
   return (
     <div
       className="relative w-full h-screen bg-cover bg-center flex items-center justify-center text-white"
