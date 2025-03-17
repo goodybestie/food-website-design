@@ -1,7 +1,7 @@
 // import Image from "next/image";
-import TestimonialCarousel from "./Component/headerpage/carousel";
-import Headers from "./Component/headerpage/Header";
-import HeaderMain from "./Component/headerpage/headermain";
+import TestimonialCarousel from "./headerpage/carousel";
+import Headers from "./headerpage/Header";
+import HeaderMain from "./headerpage/headermain";
 
 
 export default function Home() {

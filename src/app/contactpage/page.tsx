@@ -1,16 +1,14 @@
-import MoreInfo from "@/moreinfopage/page";
-import Headers from "../Component/headerpage/Header";
-import ContactPage1 from "../Component/contactpage1/page";
+import MoreInfo from "@/app/contactpage/moreinfo";
+import ContactPage1 from "./contactform";
+import Headers from "../headerpage/Header";
 
 const ContactPage = () => {
     return ( 
         <>
         <Headers h1="Contact Us" />
-
-
-       <ContactPage1 />
-
+        <ContactPage1 />
         <MoreInfo />
+
         </>
      );
 }

@@ -1,5 +1,5 @@
-import Card from "../Component/card/page";
-import Headers from "../Component/headerpage/Header";
+import PageMain from "./pagemain";
+import Headers from "../headerpage/Header";
 
 
 const MainPage = () => {
@@ -8,7 +8,7 @@ const MainPage = () => {
         <>
         <div>
             <Headers h1="Our Blog & Ariticles" />
-                <Card />
+                <PageMain/>
             </div>
 
  

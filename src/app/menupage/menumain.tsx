@@ -1,8 +1,8 @@
-// import { PriceList} from "../../const/page";
+"use client"
 
-import { PriceList } from "@/app/const/data";
+import { PriceList } from "@/app/Component/const/data";
 
-const Card2 = () => {
+const MenuMain = () => {
 
 
     return ( 
@@ -29,4 +29,4 @@ const Card2 = () => {
      );
 }
  
-export default Card2;
+export default MenuMain;

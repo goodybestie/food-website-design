@@ -11,7 +11,6 @@ export default function OrderPage() {
   return (
     <div className="bg-[#F9F9F7] py-10 px-5 md:px-[110px] mt-6">
       <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
-        {/* Text Section */}
         <div className="max-w-[550px] w-full text-center lg:text-start">
           <h2 className="text-[#2C2F24] text-2xl md:text-4xl lg:text-6xl font-semibold my-2 md:my-5">
             You can order through apps

@@ -1,4 +1,4 @@
-import Headers from "../Component/headerpage/Header";
+import Headers from "../headerpage/Header";
 import AboutMain from "./aboutmain";
 const AboutPagae = () => {
     return ( 

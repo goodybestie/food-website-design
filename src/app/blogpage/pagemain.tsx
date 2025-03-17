@@ -1,7 +1,7 @@
 
-import { Cards } from "@/app/const/data1";
+import { Cards } from "@/app/Component/const/data1";
 
-const Card = () => {
+const PageMain = () => {
 
 
     return ( 
@@ -28,4 +28,4 @@ const Card = () => {
      );
 }
  
-export default Card;
+export default PageMain;
