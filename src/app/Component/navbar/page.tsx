@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
             {/* Top bar */}
             <div className="bg-[#474747] w-full">
-                <div className="flex justify-between items-center p-2 w-[100%] md:w-[85%] m-auto">
+                <div className="flex justify-between items-center p-3 md:p-4 lg:p-3 w-[100%] md:w-full lg:w-[85%] m-auto">
                     <div className='flex gap-8'>
                         <div className='flex gap-2 text-white items-center'>
                             <FaPhoneAlt className='text-white w-3 h-3 hidden md:block' />
@@ -44,10 +44,10 @@ const Navbar = () => {
             </div>
 
             {/* Main Navbar */}
-            <div className='p-4 w-[85%] m-auto flex justify-between items-center'>
+            <div className='p-4  w-full md:w-full lg:w-[85%]  m-auto flex justify-between items-center'>
                 <div className='flex gap-4 items-center'>
                     <img src='/logo.png' alt='Logo' className='w-8 h-8' />
-                    <h1 className='font-playfair text-[#474747] font-semibold text-2xl md:text-4xl italic'>Bistro Bliss</h1>
+                    <h1 className='font-playfair text-[#474747] font-semibold text-2xl md:text-2xl lg:text-4xl italic'>Bistro Bliss</h1>
                 </div>
 
                 <div className='hidden md:flex items-center justify-center gap-2 font-medium text-sm font-Playfair'>
