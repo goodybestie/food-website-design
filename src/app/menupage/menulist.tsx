@@ -15,7 +15,7 @@ const MenueList = () => {
                     <button
                         key={index}
                         onClick={() => setSelectedCategory(category)}
-                        className={`rounded-[15px] lg:rounded-full p-2
+                        className={`rounded-[15px] lg:rounded-full p-3
                              flex flex-wrap text-xs lg:text-[13px]
                               items-center justify-center
                                text-[#2C2F24]
