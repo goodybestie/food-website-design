@@ -44,14 +44,14 @@ const Navbar = () => {
                     <h1 className='font-playfair text-[#474747] font-semibold text-2xl md:text-2xl lg:text-4xl italic'>Bistro Bliss</h1>
                 </div>
 
-                <div className='hidden md:flex items-center justify-center gap-2 font-medium text-sm font-Playfair'>
+                <div className='hidden md:flex items-center justify-center gap-2 font-medium text-sm lg:text-xl font-Playfair'>
                     {List.map((link, index) => (
                         <Link
                             key={index}
                             href={link.href}
                             className={`
                                 py-1 px-4 rounded-full ${pathname === link.href ? 
-                                'bg-[#DBDFD0] text-base text-[#2C2F24]' : ''
+                                'bg-[#DBDFD0] text-xl text-[#2C2F24]' : ''
                             }`}
                         >
                             {link.label}

@@ -1,7 +1,7 @@
 import Headers from "../headerpage/Header";
 import OrderPage from "./ordersite";
 import MenueList from "./menulist";
-import MenuMain from "./menumain";
+// import MenuMain from "./menumain";
 
 const MenuPage = () => {
 
@@ -11,8 +11,8 @@ const MenuPage = () => {
       <div>
 
         <Headers h1="Our Menu" />
-        <MenueList />
-        <MenuMain />
+        <MenueList  />
+        {/* <MenuMain /> */}
         <OrderPage />
       </div>
     </>
